@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharani Baliga Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons (Font Awesome CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>DHARANI BALIGA</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <img src="profile.jpg" alt="Profile" class="profile-img">
+        <h1>Hello, I'm <span>DHARANI BALIGA</span></h1>
+        <p>Aspiring Software Developer</p>
+        <button onclick="showMessage()">Explore</button>
+
+        <!-- Social Icons -->
+       <div class="socials">
+    <a href="https://github.com/Dharani42426/Dharani" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/dharani-baliga-2b371a34a/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+</div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student with a strong interest in programming and problem-solving.
+            I have been learning Java, Data Structures, and Web Development.
+            I enjoy building projects and improving my technical skills.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="cards">
+            <div class="card">Java</div>
+            <div class="card">Data Structures</div>
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="cards">
+
+            <div class="card">
+                <h3>Student Management System</h3>
+                <p>Console-based Java application to manage student records.</p>
+                <a href="#" target="_blank" class="btn">View Code</a>
+            </div>
+
+            <div class="card">
+                <h3>To-Do List App</h3>
+                <p>A simple web app to manage daily tasks using JavaScript.</p>
+                <a href="#" target="_blank" class="btn">View Code</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: dharanibaliga315@gmail.com</p>
+        <button onclick="copyEmail()">Copy Email</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
